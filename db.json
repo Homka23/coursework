@@ -1,61 +1,51 @@
 {
   "db": [
     {
-      "key": "2023-12-12_Meeting_1",
       "date": "2023-12-12",
       "theme": "Meeting",
       "description": "Discuss project updates"
     },
     {
-      "key": "2024-01-03_Reminder_1",
       "date": "2024-01-03",
       "theme": "Reminder",
       "description": "Renew domain registration"
     },
     {
-      "key": "2023-12-12_Task_1",
       "date": "2023-12-12",
       "theme": "Task",
       "description": "Complete coding assignment"
     },
     {
-      "key": "2023-12-15_Event_1",
       "date": "2023-12-15",
       "theme": "Event",
       "description": "Team-building activity"
     },
     {
-      "key": "2023-12-18_Reminder_1",
       "date": "2023-12-18",
       "theme": "Reminder",
       "description": "Submit expense reports"
     },
     {
-      "key": "2023-12-20_Project_1",
       "date": "2023-12-20",
       "theme": "Project",
       "description": "Plan next sprint"
     },
     {
-      "key": "2023-12-25_Holiday_1",
       "date": "2023-12-25",
       "theme": "Holiday",
       "description": "Christmas celebration"
     },
     {
-      "key": "2023-12-28_Task_2",
       "date": "2023-12-28",
       "theme": "Task",
       "description": "Review code changes"
     },
     {
-      "key": "2023-12-30_Meeting_2",
       "date": "2023-12-30",
       "theme": "Meeting",
       "description": "Client presentation"
     },
     {
-      "key": "2023-11-29_Привіт Світ_1",
       "date": "2023-11-29",
       "theme": "Привіт Світ",
       "description": "Навести порчу на Кунинця. Дорогий щоденник мені не передати той сум і біль в душі після написання заліку, а ще гірше відчувати як пан Паколок розчаровуєься в мені."
