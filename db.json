@@ -1,52 +1,54 @@
-[
-    {
-        "date": "2023-12-12",
-        "theme": "Meeting",
-        "description": "Discuss project updates"
-    },
-    {
-        "date": "2024-01-03",
-        "theme": "Reminder",
-        "description": "Renew domain registration"
-    },
-    {
-        "date": "2023-12-12",
-        "theme": "Task",
-        "description": "Complete coding assignment"
-    },
-    {
-        "date": "2023-12-15",
-        "theme": "Event",
-        "description": "Team-building activity"
-    },
-    {
-        "date": "2023-12-18",
-        "theme": "Reminder",
-        "description": "Submit expense reports"
-    },
-    {
-        "date": "2023-12-20",
-        "theme": "Project",
-        "description": "Plan next sprint"
-    },
-    {
-        "date": "2023-12-22",
-        "theme": "Deadline",
-        "description": "Submit project proposal"
-    },
-    {
-        "date": "2023-12-25",
-        "theme": "Holiday",
-        "description": "Christmas celebration"
-    },
-    {
-        "date": "2023-12-28",
-        "theme": "Task",
-        "description": "Review code changes"
-    },
-    {
-        "date": "2023-12-30",
-        "theme": "Meeting",
-        "description": "Client presentation"
-    }
-]
+{
+    "db":[
+        {
+            "date":"2023-12-12",
+            "theme":"Meeting",
+            "description":"Discuss project updates"
+        },
+        {
+            "date":"2024-01-03",
+            "theme":"Reminder",
+            "description":"Renew domain registration"
+        },
+        {
+            "date":"2023-12-12",
+            "theme":"Task",
+            "description":"Complete coding assignment"
+        },
+        {
+            "date":"2023-12-15",
+            "theme":"Event",
+            "description":"Team-building activity"
+        },
+        {
+            "date":"2023-12-18",
+            "theme":"Reminder",
+            "description":"Submit expense reports"
+        },
+        {
+            "date":"2023-12-20",
+            "theme":"Project",
+            "description":"Plan next sprint"
+        },
+        {
+            "date":"2023-12-25",
+            "theme":"Holiday",
+            "description":"Christmas celebration"
+        },
+        {
+            "date":"2023-12-28",
+            "theme":"Task",
+            "description":"Review code changes"
+        },
+        {
+            "date":"2023-12-30",
+            "theme":"Meeting",
+            "description":"Client presentation"
+        },
+        {
+            "date":"2023-11-29",
+            "theme":"Привіт Світ",
+            "description":"Навести порчу на Кунинця. Дорогий щоденник мені не передати той сум і біль в душі після написання заліку, а ще гірше відчувати як пан Паколок розчаровуєься в мені."
+        }
+    ]
+}
