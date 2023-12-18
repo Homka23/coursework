@@ -179,30 +179,6 @@
     "date": "2024-02-04",
     "theme": "Meeting",
     "description": "Project planning meeting"
-  },
-  {
-    "id": "31",
-    "date": "2024-02-07",
-    "theme": "Task",
-    "description": "Bug fixing session"
-  },
-  {
-    "id": "32",
-    "date": "2024-02-10",
-    "theme": "Reminder",
-    "description": "Update project documentation"
-  },
-  {
-    "id": "33",
-    "date": "2024-02-13",
-    "theme": "Event",
-    "description": "Company picnic"
-  },
-  {
-    "id": "34",
-    "date": "2024-02-16",
-    "theme": "Task",
-    "description": "Implement security updates"
   }
  ]
 }
