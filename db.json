@@ -72,7 +72,13 @@
       "theme": "Meeting",
       "description": "Client presentation"
     },
-  {
+    {
+    "id": "12",
+    "date": "2023-12-11",
+    "theme": "Task",
+    "description": "Prepare project documentation"
+   },
+   {
     "id": "14",
     "date": "2023-12-16",
     "theme": "Reminder",
@@ -228,5 +234,5 @@
     "theme": "Event",
     "description": "Product launch party"
   }
-]
+ ]
 }
