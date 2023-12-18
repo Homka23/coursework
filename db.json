@@ -203,36 +203,6 @@
     "date": "2024-02-16",
     "theme": "Task",
     "description": "Implement security updates"
-  },
-  {
-    "id": "35",
-    "date": "2024-02-19",
-    "theme": "Meeting",
-    "description": "Stakeholder meeting"
-  },
-  {
-    "id": "36",
-    "date": "2024-02-22",
-    "theme": "Task",
-    "description": "Optimize server performance"
-  },
-  {
-    "id": "37",
-    "date": "2024-02-25",
-    "theme": "Reminder",
-    "description": "Review project goals"
-  },
-  {
-    "id": "38",
-    "date": "2024-02-28",
-    "theme": "Task",
-    "description": "Create project budget"
-  },
-  {
-    "id": "39",
-    "date": "2024-03-02",
-    "theme": "Event",
-    "description": "Product launch party"
   }
  ]
 }
