@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDoList</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .login-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: column;
+            width: 25%;
+            height: 280px;
+            margin: auto;
+            padding: 20px;
+            margin-top: 50px;
+            border: solid 1px #ffffff;
+            box-shadow: 0px 0px 25px -1px #ffffff;
+            border-radius: 5px;
+            background: black;
+        }
+
+        .login-container input {
+            width: 90%;
+            padding: 5px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div class="login-container" id="loginContainer">
+    <p class="header"><b>Log in</b></p>
+    <input type="text" id="username" name="username" required placeholder="Ім'я користувача:">
+    <input type="password" id="password" name="password" required placeholder="Пароль:">
+    <div class="button" onclick="login()"><b>Увійти</b></div>
+</div>
+
+<div class="main" >
+    <div class="form_container">
+        <form id="inputForm">
+
+            <div class="center">
+                <div class="userGreeting">
+                    <b><p class="header">Привіт</p></b>
+                    <i><p>я, твій особистий щоденник, допоможу тобі зберегти цінну інформацію, події, плани.</p></i>
+                </div>
+            </div>
+
+            <div class="fields">
+                <div class="inputs">
+                    <input type="date" id="date" name="date" required>
+                    <input type="text" id="theme" name="theme" required placeholder="Напишіть тему:">
+                    <input type="text" id="description" name="description" required placeholder="Про що ви думаєте?">
+                </div>
+            </div>
+            <div class="two_but">
+                <div class="button" onclick="addRecord()"><b>Додати запис</b></div>
+                <div class="button" onclick="sortAndDisplayArrayExternally()"><b>Сортувати</b></div>
+            </div>
+            <div class="center">
+                <div class="button but_del" onclick="deleteSelectedRecords()"><b>Видалити записи</b></div>
+                <input class="small_input" type="text" id="searchTheme" name="searchTheme" placeholder="Шукати за темою:">
+                <input class="small_input" type="date" id="searchDate" name="searchDate">
+            </div>
+            <div class="two_but">
+                <div class="button small_but" onclick="searchRecords()"><b>Пошук</b></div>
+                <div class="button small_but" onclick="fetchDataFromServer()"><b>Всі записи</b></div>
+            </div>
+        </form>
+    </div>
+
+    <div class="hashTableOutput" id="hashTableOutput">
+    </div>
+</div>
+<script src="main.js"></script>
+<script>
+    function login() {
+        const username = document.getElementById('username').value;
+        const password = document.getElementById('password').value;
+
+        // Check username and password
+        if (username === "" && password === "") {
+            // Successful login, store username in local storage
+            localStorage.setItem('username', username);
+
+            // Показати елемент з класом .main
+            document.querySelector('.login-container').style.display = 'none';
+            document.querySelector('.main').style.display = 'flex';
+
+
+        } else {
+            alert("Invalid username or password");
+        }
+    }
+
+</script>
+</body>
+</html>

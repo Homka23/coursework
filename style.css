@@ -1,0 +1,171 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-image: url("images/5.jpg");
+    background-size: cover; /* Зробити фото на повний екран */
+    background-attachment: fixed; /* Зафіксувати фото */
+    font-family: 'Roboto', sans-serif;
+}
+
+.main{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    padding: 20px;
+}
+
+.form_container{
+    width: 40%;
+}
+.fields{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    padding: 20px 0 20px 0;
+    margin: 0;
+    border-radius: 5px;
+    border: solid 1px #ffffff;
+    box-shadow: 0px 0px 25px -4px #ffffff;
+    background: black;
+}
+p{
+    margin: 10px 0 0 0;
+}
+.header{
+    font-size: 26px;
+    color: #ffffff;
+}
+.userGreeting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+.inputs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input::placeholder{
+    color: #ffffff;
+}
+input{
+    background-color: transparent; /* Без фонового кольору */
+    border: solid 1px #ffffff; /* Видалити обводку */
+    padding-left: 6px;
+    width: 90%;
+    height: 30px;
+    margin: 5px 0 5px 0;
+    border-radius: 35px;
+    color: #ffffff;
+    font-size: 16px;
+    opacity: 90%;
+
+}
+.small_input{
+    width: 70%;
+    height: 25px;
+    font-size: 14px;
+}
+
+.two_but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 35px;
+    margin: 3px;
+    border-radius: 40px;
+    border: solid 1px #ffffff;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.86);
+    transition: 0.8s;
+
+}
+.but_del{
+    font-size: 15px;
+    width: 42%;
+}
+.button:hover{
+    transition: 0.8s;
+    border: solid 1px #a40101;
+    background: #a40101;
+    color: #ffffff;
+    cursor: pointer;
+}
+.small_but{
+    width: 35%;
+    height: 30px;
+}
+
+.hashTableOutput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 45%;
+    height: auto;
+    color: #ffffff;
+    margin-top: 20px;
+    padding: 0 10px 0 10px;
+}
+.record-container{
+    width: 90%;
+    height: auto;
+    border-radius: 5px;
+    border: solid 1px #ffffff;
+    box-shadow: 0px 0px 15px -4px #ffffff;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    transition: 1s;
+    background: black;
+}
+
+.record-container.selected {
+    width: 92%;
+    transition: 1s;
+    border: solid 1px #7a0000;
+    background: #7a0000;
+    color: rgba(255, 255, 255, 0.86);
+    box-shadow: none;
+}
+.record-container:hover {
+    transition: 0.5s;
+    border: solid 1px #a20000;
+    box-shadow: 0px 0px 15px -4px #fa0000;
+    color: rgba(255, 255, 255, 0.86);
+    cursor: pointer;
+
+}
+
+.theme{
+    font-size: 20px;
+}
